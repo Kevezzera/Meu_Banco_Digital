@@ -1,115 +1,118 @@
-body {
-    background-color: #Daa520;
-    margin:0px;
-}
-
-img {
-    display: none;
-}
-
-.cabecalho{
-    background: linear-gradient(to right, black, #Daa520);
-    width: 100%;
-    height: 70px;
-    position: absolute;
-}
-
-.cabecalho > h1 {  
-    color: #Daa520;
-    font-size: 40px;
-    text-shadow: 0px 0px 9px #dfdbdbcb;
-    padding: 10px;
-}
-
-.menu { 
-    position:absolute; 
-    top: 70px;  
-}
-
-.menu > a {
-    color: white;
-    display: inline-block;
-    font-size: 22px;
-    margin-left: 10px;
-    text-decoration: none;
-}
-
-
-
-
-.contorno_formulario {
-    background-color: #708090;
-    width: 260px;
-    height: 350px;
-    border-radius: 5px;
-    border: solid 1px rgb(255, 255, 255);
-
-    margin: auto;
-   
-    padding-top: 5px;
-    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.917);
-
-    position:relative;
-    top: 150px;
-}
-
-.formulario {
-    background-color: #a9acadd5;
-    width: 230px;
-    height: 220px;
-    border-radius: 5px;
+@media screen and (max-width: 720px){
+    body {
+        background-color: #Daa520;
+        margin:0px;
+    }
     
-
-    display: inline-block;
-    position: relative;
-    left: 15px;
-}
-
-.contorno_formulario > h1 {
-    text-align: center;
+    img {
+        display: none;
+    }
     
-    margin: 10px;
-    margin-top: 25px;
-}
-
-div > p {
-    color: white;
-    text-align: justify;
-    font-size: 120%;
+    .cabecalho{
+        background: linear-gradient(to right, black, #Daa520);
+        width: 100%;
+        height: 70px;
+        position: absolute;
+    }
     
-    margin: 10px;
-    margin-top: 25px;
-}
-
-
-.botao_entrar {
-    background-color: #Daa520;
-    padding: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    border: solid 1px black;
-    border-radius: 5px;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.719);
-
-    position: absolute;
-    top: 150px;
-    left: 80px;
-
-}
-
-.criar_conta {
-    background-color: #a9acadd5;
-    width: 88%;
-    height: 30px;
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.criar_conta > a {
-    color: rgb(248, 248, 248);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 19px;
+    .cabecalho > h1 {  
+        color: #Daa520;
+        font-size: 40px;
+        text-shadow: 0px 0px 9px #dfdbdbcb;
+        padding: 10px;
+    }
     
+    .menu { 
+        position:absolute; 
+        top: 70px;  
+    }
+    
+    .menu > a {
+        color: white;
+        display: inline-block;
+        font-size: 22px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    .contorno_formulario {
+        background-color: #708090;
+        width: 260px;
+        height: 350px;
+        border-radius: 5px;
+        border: solid 1px rgb(255, 255, 255);
+    
+        margin: auto;
+       
+        padding-top: 5px;
+        box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.917);
+    
+        position:relative;
+        top: 150px;
+    }
+    
+    .formulario {
+        background-color: #a9acadd5;
+        width: 230px;
+        height: 220px;
+        border-radius: 5px;
+        
+    
+        display: inline-block;
+        position: relative;
+        left: 15px;
+    }
+    
+    .contorno_formulario > h1 {
+        text-align: center;
+        
+        margin: 10px;
+        margin-top: 25px;
+    }
+    
+    div > p {
+        color: white;
+        text-align: justify;
+        font-size: 120%;
+        
+        margin: 10px;
+        margin-top: 25px;
+    }
+    
+    
+    .botao_entrar {
+        background-color: #Daa520;
+        padding: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        border: solid 1px black;
+        border-radius: 5px;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.719);
+    
+        position: absolute;
+        top: 150px;
+        left: 80px;
+    
+    }
+    
+    .criar_conta {
+        background-color: #a9acadd5;
+        width: 88%;
+        height: 30px;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .criar_conta > a {
+        color: rgb(248, 248, 248);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 19px;
+        
+    }
+        
 }

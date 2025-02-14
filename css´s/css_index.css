@@ -4,6 +4,7 @@ body {
 }
 
 img {
+    
     position:absolute;
     width:100%;   
     background: fixed no-repeat;
