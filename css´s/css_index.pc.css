@@ -1,11 +1,11 @@
-@media screen and (max-width: 720px){
+@media screen and (min-width: 721px){
 body {
     background-color: #Daa520;
     margin:0px;
 }
 
 img {
-    display:none;
+    display: ;
     position:absolute;
     width:100%;   
     background: fixed no-repeat;
@@ -14,27 +14,27 @@ img {
 .cabecalho{
     background: linear-gradient(to right, black, #Daa520);
     width: 100%;
-    height: 80px;
+    height: 100px;
     position: absolute;
 }
 
 .cabecalho > h1 {  
     color: #Daa520;
-    font-size: 45px;
+    font-size: 60px;
     text-shadow: 0px 0px 9px #dfdbdbcb;
-    padding: 10px;
+    padding: 20px;
 }
 
 .menu { 
     position:absolute; 
-    top: 80px;  
+    top: 100px;  
 }
 
 .menu > a {
     color: white;
     display: inline-block;
     font-size: 22px;
-    margin-left: 10px;
+    margin-left: 20px;
     text-decoration: none;
 }
 
@@ -118,3 +118,5 @@ div > p {
     
 }
 }
+
+
