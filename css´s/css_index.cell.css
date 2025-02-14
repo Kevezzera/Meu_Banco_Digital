@@ -14,8 +14,9 @@
     .menu{
         margin: 0px;
         position:relative;
-        left: 0px;
-        top:0px;
+        left: -40px;
+        top:-15px;
+        right:0px;
     }
     .menu > a {
         
