@@ -5,20 +5,25 @@
     }
     .cabecalho > h1 {
         width:100%;
-        padding:15px;
+        padding: 0px;
+        padding-top:10px;
+        padding-left: 10px;
         font-size:40px;
     }
     .menu{
-        background-color:black;
         position:relative;
-        
         left: 0px;
         top:0px;
     }
     .menu > a {
-        margin:0px;
-        margin-right:20px;
-        padding-left:20px;
+        
+        color: white;
+        display:inline-block;
+        margin:px;
+        margin-left:20px;
+        margin-right:10px;
+        font-size:20px;
+        text-decoration:none;
     }
     .contorno_formulario {
         position:relative;
