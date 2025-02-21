@@ -27,6 +27,7 @@
         font-size: 45px;
         text-shadow: 0px 0px 9px #050505cb;
         padding: 10px;
+        
     }
     
     #menu > a {
@@ -40,9 +41,34 @@
         
     }
 
-    section > h1 {
-        text-align: center;
+    .titulo{
+        background-color: #615353;
+        margin: auto;
         margin-top: 30px;
+        width: 80%;
+        border-radius: 5px;
+        border: solid 1px black;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+        
+    }
+
+    .titulo > h1 {
+        color: #Daa520;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding: 5px;
+       
+    }
+
+    h3 {
+        background-color: rgb(0, 0, 0);
+        color: #Daa520;
+        padding: 3px;
+        border-radius: 5px;
+        border: solid 1px white;
+        margin-left: -2px;
+        margin-top: -2px;
     }
 
     #formulario{
@@ -52,20 +78,45 @@
         margin: auto;
         margin-top: 30px;
         padding: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
     }
 
     #formulario > form > fieldset > p{
         display: grid;
     }
 
-    h3 {
-        background-color: black;
-        color: #Daa520;
-        padding: 3px;
+    label {
+        margin: 5px 1px 0px 5px;
+    }
+
+    #input {
+        background-color: transparent;
+        width: 95%;
+        height: 30px;
+        margin: auto;
+        border: #050505cb;
+        border-bottom: solid #615353 2px;
+        color: white;
+        outline: none;
+        
+
+    }
+
+    #botao_enviar{
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #Daa520;
         border-radius: 5px;
-        border: solid 1px white;
-        margin-left: -2px;
-        margin-top: -2px;
+        font-size: 16px;
+        padding: 5px;
+        font-weight: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        border: solid 1px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+        cursor: pointer;
+
     }
 
 }

@@ -27,34 +27,38 @@
 
     <main>
         <section>
-            <h1><ins>Cadasti-se</ins></h1>
+            <div class="titulo">
+                <h1>Cadastre-se</h1>
+            </div>
            
             
             <div id="formulario">
-                <form action="cadastros.py" method="get">
+                <form action="cadastros.py" method="post">
                     <fieldset>
                         <legend><h3>Dados Pessoais</h3></legend>
                         <p>
                             <label for="nome">Nome</label>
-                            <input type="text" name="nome" id="nome">
+                            <input id="input" type="text" name="nome" id="nome">
+                            
                             <label for="sobrenome">Sobre Nome</label>
-                            <input type="text" name="sobrenome" id="sobrenome">
+                            <input id="input" type="text" name="sobrenome" id="sobrenome">
+                            
                             <label for="cpf">CPF</label>
-                            <input type="text" name="cpf" id="cpf">
+                            <input id="input" type="text" name="cpf" id="cpf">
+                            
                             <label for="email">Email</label>
-                            <input type="text" name="email" id="email">
+                            <input id="input" type="text" name="email" id="email">
+                            
+                            
+                            <input id="botao_enviar" type="submit" value="Enviar">
+                            
                         </p>
                     </fieldset>
                 </form>
             </div>
-               
-            <div class="criar_conta">
-            <a href="pg_login.html">Fazer login</a>
-            </div>
-       
+
         </section>
 
     </main>
-    <a href="python/sistema_de_cadastro.py"></a>
 </body>
 </html>
