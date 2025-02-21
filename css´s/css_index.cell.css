@@ -12,15 +12,21 @@ body{
 }
 
 header{
-    background-color: yellowgreen;
+    margin: 0;
 }
 
 .cabecalho{
-    background-color: violet;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to left,  rgb(242, 242, 243),red); 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   padding: 10px;
+   border: none;
+   
 }
 
 #img_menu{
-    background-color: violet;
+    
     display: block;
     width: 50px;
     position: relative;
@@ -37,6 +43,10 @@ header{
 }
 
 #menu > a > p {
-    background-color: brown;
+    margin: 0;
+}
+
+#menu > a > p {
+    background-color: rgb(56, 165, 42);
     margin: 5px;
 }
