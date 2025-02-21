@@ -81,8 +81,8 @@
         margin-top: 25px;
     }
     
-    div > p {
-        color: white;
+    .txt {
+        color: rgb(3, 3, 3);
         text-align: justify;
         font-size: 120%;
         
