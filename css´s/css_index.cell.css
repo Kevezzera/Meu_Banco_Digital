@@ -35,7 +35,7 @@ header{
 
 #menu{
     display: block;
-    background-color: blueviolet;
+    
     position: absolute;
     width: 50%;
     height: 80%;
@@ -48,5 +48,5 @@ header{
 
 #menu > a > p {
     background-color: rgb(56, 165, 42);
-    margin: 5px;
+    padding: 5px;
 }
