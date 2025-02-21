@@ -11,39 +11,47 @@
     <img src="imagens/pexels-jill-wellington-1638660-40815.jpg" alt="">
 
     <header>
-        <div class="cabecalho">
-            <h1>Functions Bank</h1>
-        </div>
-       
-        <menu class="menu">
-            <a href="index.html"><p>início</p></a>
-            <a href="#"><p>sobre</p></a>
-            <a href="#"><p>vídeos</p></a>
-            <a href="#"><p>supote</p></a>   
-        </menu>
+    <div class="cabecalho">
+        <h1>Functions Bank</h1>
+    </div>
+        
+
+    <menu id="menu">
+        <a href="index.html"><p>início</p></a>
+        <a href="#"><p>sobre</p></a>
+        <a href="#"><p>vídeos</p></a>
+        <a href="#"><p>supote</p></a>   
+    </menu>
        
     </header>
 
     <main>
-        <section class="contorno_formulario">
+        <section>
             <h1><ins>Cadasti-se</ins></h1>
-            <div class="formulario">
-               
-
-                <label for="login"><img src="icones/person_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
-                
-                <input type="text" name="login" id="login" required placeholder="escolha um login">
-
-                <label for="senha"><img src="icones/vpn_key_alert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
-                <input type="password" name="senha" id="escolha uma senha" required placeholder="escolha uma senha"> 
-
-                <input id="botao_registrar" type="button" value="Registrar" onclick="registrar_cliente()" >
-
-               
+           
+            
+            <div id="formulario">
+                <form action="cadastros.py" method="get">
+                    <fieldset>
+                        <legend><h3>Dados Pessoais</h3></legend>
+                        <p>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome">
+                            <label for="sobrenome">Sobre Nome</label>
+                            <input type="text" name="sobrenome" id="sobrenome">
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="cpf" id="cpf">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                        </p>
+                    </fieldset>
+                </form>
             </div>
+               
             <div class="criar_conta">
-                <a href="pg_login.html">Fazer login</a>
+            <a href="pg_login.html">Fazer login</a>
             </div>
+       
         </section>
 
     </main>
