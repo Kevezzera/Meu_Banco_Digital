@@ -1,11 +1,6 @@
-html, body{
-    height: 100vh;
-    width: 100vw;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    background-color: #Daa520;
+    margin:0px;
 }
 
 img {
@@ -15,7 +10,7 @@ img {
 
 .cabecalho{
     background: linear-gradient(to right, black, #Daa520);
-    width: 100%;
+    width: 100%;z
     height: 80px;
     position: relative;
 }
