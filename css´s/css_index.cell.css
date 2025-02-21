@@ -94,16 +94,15 @@
     .botao_entrar {
         background-color: #Daa520;
         padding: 10px;
+        width: 60px;
         cursor: pointer;
         text-decoration: none;
         border: solid 1px black;
         border-radius: 5px;
         box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.719);
     
-        position: absolute;
-        top: 150px;
-        left: 80px;
-    
+        margin: auto;
+        margin-top: 40px;
     }
     
     .criar_conta {
