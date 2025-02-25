@@ -1,0 +1,129 @@
+@media screen and (min-width: 721px){
+    *{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    html, body{
+        height: 100vh;
+        width: 100vw;
+        background-color: #fffefc;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    
+    }
+    
+    .cabecalho{
+        background: linear-gradient(to right, black, #Daa520);
+        width: 100%;
+        height: 80px;
+        position: relative;
+    }
+    
+    .cabecalho > h1 {  
+        color: #Daa520;
+        font-size: 45px;
+        text-shadow: 0px 0px 9px #050505cb;
+        padding: 10px;
+        position: relative;
+    }
+    
+    #menu > a {
+        
+        color: rgb(255, 251, 251);
+        display: inline-block;
+        font-size: 22px;
+        margin-left: 10px;
+        text-decoration: none;
+        text-shadow: 0px 0px 9px #050505cb;
+        position: relative;
+    }
+
+    .titulo{
+        background-color: #615353;
+        margin: auto;
+        margin-top: 40px;
+        width: 25%;
+        border-radius: 5px;
+        border: solid 1px black;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+        position: relative;
+    }
+
+    .titulo > h1 {
+        color: #Daa520;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding: 5px;
+        position: relative;
+    }
+
+    h3 {
+        background-color: rgb(24, 23, 23);
+        color: #Daa520;
+        padding: 3px;
+        border-radius: 5px;
+        border: solid 1px white;
+        margin-left: -2px;
+        margin-top: -2px;
+        position: relative;
+    }
+
+    #formulario{
+        display: grid;
+        background-color: rgba(233, 230, 230, 0.856);
+        width: 25%;
+        margin: auto;
+        margin-top: 30px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+
+    #formulario > form > fieldset > p{
+        display: grid;
+    }
+
+    label {
+        color: rgb(14, 14, 14);
+        margin: 5px 1px 0px 5px;
+    }
+
+    #input {
+        background-color: transparent;
+        width: 95%;
+        height: 30px;
+        margin: auto;
+        border: #1f1e1ecb;
+        border-bottom: solid #615353 2px;
+        color: white;
+        outline: none;
+        
+
+    }
+
+    #botao_enviar{
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #Daa520;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 5px;
+        font-weight: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        border: solid 1px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+        cursor: pointer;
+
+    }
+}
+
+
